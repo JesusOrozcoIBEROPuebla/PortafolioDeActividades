@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Práctica 1 | Ibero Puebla</title>
+        <title>Práctica 3 | Ibero Puebla</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
@@ -51,7 +51,7 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">Arduino Basico y avanzado. </h1>
+                        <h1 class="fw-bolder mb-1">Attiny85 OUTPUTS</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
                             <img class="img-fluid rounded-circle" width="50px" src="assets/Jesus Cortado.jpg" alt="..." />
@@ -61,9 +61,10 @@
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 09 01, 2023</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: 28 10, 2023</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
                         <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Attiny85</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
 
                     </header>
@@ -74,33 +75,38 @@
             <section>
                 <div class="container px-5">
 
-                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Electronica.jpg" alt="..." /></figure>
+                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/Attiny portada.jpg" alt="..." /></figure>
                                 
                     <p id="resumen">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                        <p class="fs-6 mb-4">Esta practica es para obtener el conocimiento necesario para manejar arduino, pero, que es arduino ? es una tarjeta de desarrollo ideal para proyectos de hardware y de automatización programable que te permite llevar a cabo ideas tanto personales como industriales, haciendo accesible su uso a cualquier persona. </p>
-                        <p class="fs-6 mb-4">Arduino es una gran ayuda para empezar en el mundo de la electronica y la programacion para tener las bases basicas para comenzar aprender a programar y a conectar,</p>
+                        <p class="fs-6 mb-4">Esta practica es para obtener el conocimiento necesario para manejar atinny85, pero, que es atinny85 ? El ATtiny85 es un microcontrolador de 8 bits que se basa en la arquitectura RISC (Reduced Instruction Set Computer). Tiene una cantidad limitada de pines de entrada/salida y una memoria programable, lo que lo hace adecuado para aplicaciones que no requieren una gran cantidad de recursos. </p>
+                        <p class="fs-6 mb-4">Los microcontroladores ATtiny, incluyendo el ATtiny85, se pueden programar en lenguajes de programación como C o ensamblador, y a menudo se utilizan con un programador especializado para cargar el código en el chip. Estos dispositivos son populares en la comunidad de electrónica y se utilizan en una variedad de proyectos, desde controladores de LED hasta sistemas de automatización del hogar.</p>
                         
                         <p id="intro">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">Arduino es una plataforma de creación de electrónica de código abierto, la cual está basada en hardware y software libre, flexible y fácil de utilizar para los creadores y desarrolladores. Esta plataforma permite crear diferentes tipos de microordenadores de una sola placa a los que la comunidad de creadores puede darles diferentes tipos de uso. </p>
-                        <p class="fs-6 mb-4">Para poder entender este concepto, primero vas a tener que entender los conceptos de hardware libre y el software libre. El hardware libre son los dispositivos cuyas especificaciones y diagramas son de acceso público, de manera que cualquiera puede replicarlos. Esto quiere decir que Arduino ofrece las bases para que cualquier otra persona o empresa pueda crear sus propias placas, pudiendo ser diferentes entre ellas pero igualmente funcionales al partir de la misma base.</p>
-                        
+                        <p class="fs-6 mb-4">El ATtiny85 es un microcontrolador de la serie ATtiny fabricado por Atmel (ahora parte de Microchip Technology). Los microcontroladores ATtiny son componentes electrónicos utilizados en una amplia gama de aplicaciones, desde proyectos de electrónica de aficionados hasta aplicaciones industriales y comerciales. El ATtiny85 es uno de los modelos de esta serie y se destaca por su tamaño compacto y versatilidad.</p>
+                        <p class="fs-6 mb-4">Arquitectura de 8 bits: El ATtiny85 es un microcontrolador de 8 bits que utiliza una arquitectura RISC (Reduced Instruction Set Computer), lo que significa que realiza operaciones de procesamiento de datos en bloques de 8 bits.
+
+                            Memoria Flash y RAM: El ATtiny85 tiene una memoria flash programable para almacenar el programa de la aplicación y una pequeña cantidad de memoria RAM para almacenar datos temporales.
+                            
+                            Pines de E/S: El ATtiny85 tiene un número limitado de pines de entrada/salida, generalmente alrededor de 6-8 pines, dependiendo del encapsulado. Estos pines se pueden utilizar para conectar sensores, actuadores y otros dispositivos externos.</p>
+                           
+                            Periféricos integrados: El ATtiny85 incorpora diversos periféricos, como temporizadores, contadores y conversores analógico a digital (ADC), que permiten a los desarrolladores crear una variedad de aplicaciones.
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
                         <p class="fs-6 mb-4">Los materiales ocupados en estas practicas son los siguientes:</p>
-                        <p class="fs-6 mb-4"><img class="img-fluid rounded" width="200px" src="img/PushBotton.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/Jumpers.jpg" alt="..." /></figure>    <img class="img-fluid rounded" width="200px" src="img/Display7Segmentos.jpg" alt="..." /><img class="img-fluid rounded" width="250px" src="img/Led.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/resistencia.jpg" alt="..." /> <img class="img-fluid rounded" width="200px" src="img/Servomotor.jpg" alt="..." /> </p>
+                        <p class="fs-6 mb-4"><img class="img-fluid rounded" width="200px" src="img/PushBotton.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/Jumpers.jpg" alt="..." /></figure>    <img class="img-fluid rounded" width="200px" src="img/Display7Segmentos.jpg" alt="..." /><img class="img-fluid rounded" width="250px" src="img/Led.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/resistencia.jpg" alt="..." /> <img class="img-fluid rounded" width="200px" src="img/Servomotor.jpg" alt="..." />  <img class="img-fluid rounded" width="200px" src="img/LED RGB.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/NEOPIXEL.jpg" alt="..." /></figure> <img class="img-fluid rounded" width="200px" src="img/oled.jpg" alt="..." /></figure>  </p>
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">Seguimos las indicaciones de el curso de arduino basico y avanzado conectando las piezas como resistencia, jumpers, display etc... </p>
+                        <p class="fs-6 mb-4">Seguimos las indicaciones de el curso de ATTINY 85 conectando las piezas como resistencia, jumpers, display etc... </p>
                         <p class="fs-6 mb-4"></p>
                         
                             <p id="simulacion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
                             <p class="fs-6 mb-4"></p>
                             <p class="fs-6 mb-4"></p>
-                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/Display.jpg" alt="..." /></figure>
+                            <figure class="mb-4" align="center"><img class="img-fluid rounded"  width="600px" src="img/atinny arduino.png" alt="..." /></figure>
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
@@ -109,7 +115,7 @@
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Seguimos los pasos de los videos para conectar y empezamos a programar el arduino conectando los componentes electronicos </p>
+                            <p class="fs-6 mb-4">Seguimos los pasos de los cursos para conectar y empezamos a programar el arduino junto el atinny conectando los componentes electronicos </p>
                             <p class="fs-6 mb-4"></p>
                             
 
@@ -118,17 +124,72 @@
                         <p class="fs-6 mb-4">Estos son las practicas que he realizado: </p>
                         <p class="fs-6 mb-4"></p>
                         <figure class="mb-4" align="center"><video width="80%"  controls>
-                            <source src="video/1.mp4" type="video/mp4">
+                            <source src="video/OUTPUT1.mp4" type="video/mp4">
                         </video></p></figure>
 
                             <figure class="mb-4" align="center"><video width="80%"  controls>
-                                <source src="video/2.mp4" type="video/mp4">
-                        </video></p></figure>
+                                <source src="video/OUTPUT2.mp4" type="video/mp4">
+                        </video></p></figure>ç
 
+                        <figure class="mb-4" align="center"><video width="80%"  controls>
+                            <source src="video/output3.mp4" type="video/mp4">
+                    </video></p></figure>
+
+                    <figure class="mb-4" align="center"><video width="80%"  controls>
+                        <source src="video/OUTPUT4.mp4" type="video/mp4">
+                </video></p></figure>
+
+                <figure class="mb-4" align="center"><video width="80%"  controls>
+                    <source src="video/output5.mp4" type="video/mp4">
+            </video></p></figure>
+
+            <figure class="mb-4" align="center"><video width="80%"  controls>
+                <source src="video/OUTPUT6.mp4" type="video/mp4">
+        </video></p></figure>
+
+        <figure class="mb-4" align="center"><video width="80%"  controls>
+            <source src="video/OUTPUT7.mp4" type="video/mp4">
+    </video></p></figure>
+
+    <figure class="mb-4" align="center"><video width="80%"  controls>
+        <source src="video/OUTPUT8.mp4" type="video/mp4">
+</video></p></figure>
+
+<figure class="mb-4" align="center"><video width="80%"  controls>
+    <source src="video/OUTPUT9.mp4" type="video/mp4">
+</video></p></figure>
+
+<figure class="mb-4" align="center"><video width="80%"  controls>
+    <source src="video/OUTPUT10.mp4" type="video/mp4">
+</video></p></figure>
+
+<figure class="mb-4" align="center"><video width="80%"  controls>
+    <source src="video/OUTPUT11.mp4" type="video/mp4">
+</video></p></figure>
+
+<figure class="mb-4" align="center"><video width="80%"  controls>
+    <source src="video/OUTPUT12.mp4" type="video/mp4">
+</video></p></figure>
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.Science is an enterprise that should be cherished as an activity of the free human mind. Because it transforms who we are, how we live, and it gives us an understanding of our place in the universe. The universe is large and old, and the ingredients for life as we know it are everywhere, so there's no reason to think that Earth would be unique in that regard. Whether of not the life became intelligent is a different question, and we'll see if we find that.</p>
-                        <p class="fs-6 mb-4">If you get asteroids about a kilometer in size, those are large enough and carry enough energy into our system to disrupt transportation, communication, the food chains, and that can be a really bad day on Earth.</p>
+                        <p class="fs-6 mb-4"> el ATtiny85 es una herramienta valiosa para aprender, experimentar y desarrollar proyectos de electrónica y programación embebida, especialmente si tienes en cuenta sus ventajas y limitaciones. Su uso te permitirá ganar experiencia práctica en el mundo de la tecnología y la electrónica. </p>
+                        <p class="fs-6 mb-4">Elección adecuada para proyectos compactos: El ATtiny85 es una excelente elección cuando trabajas en proyectos con restricciones de espacio debido a su tamaño compacto. Puede caber en aplicaciones donde otros microcontroladores más grandes no son prácticos.
+
+                            Aprendizaje de programación embebida: El ATtiny85 es una plataforma ideal para aprender sobre programación embebida y control de hardware. Puedes desarrollar tus habilidades de programación y electrónica utilizando este microcontrolador.
+                            
+                            Economía de recursos: Dado su tamaño y capacidad limitada de E/S, aprender a aprovechar al máximo los recursos disponibles en el ATtiny85 es una valiosa lección. Esto te ayudará a ser más eficiente y creativo en tus proyectos.
+                            
+                            Eficiencia energética: Si estás interesado en proyectos que funcionen con baterías o donde la eficiencia energética es fundamental, el ATtiny85 es una opción excelente debido a su bajo consumo de energía.
+                            
+                            Comunidad activa: Existe una comunidad activa de entusiastas y desarrolladores que utilizan el ATtiny85 en una amplia variedad de proyectos. Puedes encontrar recursos en línea, tutoriales y ejemplos que te ayudarán a desarrollar tus habilidades.
+                            
+                            Limitaciones de E/S: Debes estar al tanto de las limitaciones de E/S del ATtiny85, ya que tiene un número limitado de pines. Esto puede requerir una planificación cuidadosa en tus proyectos.
+                            
+                            Desarrollo de habilidades: Trabajar con un microcontrolador como el ATtiny85 te brindará experiencia en programación, electrónica y solución de problemas, lo que te ayudará a desarrollar habilidades valiosas.
+                            
+                            Flexibilidad en aplicaciones: Aunque es pequeño, el ATtiny85 es sorprendentemente versátil y puede utilizarse en una variedad de aplicaciones, desde controladores de LED hasta sensores y actuadores.
+                            
+                            </p>
                         
 
                         <p id="referencias">
